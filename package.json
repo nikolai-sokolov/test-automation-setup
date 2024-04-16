@@ -11,6 +11,10 @@
     "prepare": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks && git config --unset core.hooksPath",
     "lint-prettify": "eslint . --fix && prettier --write ."
   },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "esm": "^3.2.25"
+  },
   "optionalDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
